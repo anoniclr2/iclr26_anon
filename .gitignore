@@ -1,13 +1,13 @@
 # Large data and experiment files
-notebooks/Ensembling_Finetuned_LLMs/llm_experiments_data/**
+notebooks/Ensembling_Finetuned_LLMs/llm_experiments_data/arrays/**
 notebooks/data/**
 notebooks/data/cifar-10-python.tar.gz
 #notebooks/figures/
 #notebooks/result_csv/
 
 # Allow empty dirs
-!notebooks/data/.gitkeep
-!notebooks/Ensembling_Finetuned_LLMs/llm_experiments_data/.gitkeep
+!notebooks/data.gitkeep
+!notebooks/Ensembling_Finetuned_LLMs/llm_experiments_data/arrays/.gitkeep
 
 
 # Temporary files
