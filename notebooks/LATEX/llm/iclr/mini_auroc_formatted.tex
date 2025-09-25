@@ -1,0 +1,22 @@
+\begin{table}[h]
+  \caption{Mini dataset: Area under the ROC (AUROC) over data splits; mean ± 95\\% confidence interval half-width) on the full dataset (100\\%). The best mean is shown in bold, and methods not significantly different from the best (paired test, \\( \\alpha = 0.05 \\)) are shaded.}
+  \label{tab:auroc_mini_pure_logits}
+  \centering
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{lcccccc}
+    \toprule
+    Ensemble Type & DBpedia & News & SST-2 & SetFit & Tweet & IMDB \\
+    \midrule
+    Greedy-5 & 0.9998 ± 0.0 & 0.9899 ± 0.0002 & 0.9853 ± 0.0007 & 0.9539 ± 0.0004 & 0.9226 ± 0.0015 & 0.9872 ± 0.0007 \\
+    Greedy-5 p.t.c. & 0.9998 ± 0.0 & 0.9899 ± 0.0001 & 0.9853 ± 0.0007 & 0.9539 ± 0.0004 & 0.9225 ± 0.0015 & 0.9872 ± 0.0007 \\
+    Greedy-5 c.t.p. & 0.9998 ± 0.0 & 0.9902 ± 0.0001 & 0.9868 ± 0.0004 & 0.9602 ± 0.0003 & 0.9252 ± 0.0014 & \cellcolor{gray!20}0.9889 ± 0.0007 \\
+    Greedy-5 JUCAL & 0.9998 ± 0.0 & \cellcolor{gray!20}0.9905 ± 0.0002 & 0.9874 ± 0.0005 & 0.962 ± 0.0004 & 0.9253 ± 0.0019 & 0.9883 ± 0.0006 \\
+    \midrule
+    Greedy-50 & 0.9997 ± 0.0 & 0.9889 ± 0.0005 & \cellcolor{gray!20}0.9878 ± 0.0008 & 0.9632 ± 0.0002 & \cellcolor{gray!20}0.9302 ± 0.0013 & 0.9886 ± 0.0001 \\
+    Greedy-50 p.t.c. & 0.9997 ± 0.0 & 0.9889 ± 0.0005 & \cellcolor{gray!20}0.9878 ± 0.0008 & 0.9632 ± 0.0002 & \cellcolor{gray!20}0.9302 ± 0.0013 & 0.9886 ± 0.0001 \\
+    Greedy-50 c.t.p. & \cellcolor{gray!20}0.9998 ± 0.0 & \cellcolor{gray!20}\textbf{0.9909 ± 0.0003} & \cellcolor{gray!20}\textbf{0.989 ± 0.0007} & \cellcolor{gray!20}\textbf{0.9671 ± 0.0002} & \cellcolor{gray!20}\textbf{0.9316 ± 0.0011} & \cellcolor{gray!20}\textbf{0.9897 ± 0.0001} \\
+    Greedy-50 JUCAL & \cellcolor{gray!20}\textbf{0.9998 ± 0.0} & \cellcolor{gray!20}0.9907 ± 0.0003 & \cellcolor{gray!20}0.9885 ± 0.0008 & 0.9667 ± 0.0001 & \cellcolor{gray!20}0.9306 ± 0.0012 & 0.9886 ± 0.0002 \\
+    \bottomrule
+  \end{tabular}
+  }
+\end{table}

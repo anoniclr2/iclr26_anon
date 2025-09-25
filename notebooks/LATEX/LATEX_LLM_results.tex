@@ -1,0 +1,13 @@
+\begin{tabular}{lllllllll}
+\toprule
+ensemble_type & method & metric & SetFit/mnli & ag_news & dbpedia_14 & imdb & mteb/tweet_sentiment_extraction & stanfordnlp/sst2 \\
+\midrule
+greedy & convex_comb & non-calibrated NLL & 0.5315 ± 0.0016 & 0.1542 ± 0.0043 & 0.0351 ± 0.0007 & 0.1047 ± 0.0013 & 0.4787 ± 0.0064 & 0.1135 ± 0.0023 \\
+greedy & convex_comb & calibrated NLL & 0.5205 ± 0.0014 & 0.145 ± 0.0033 & 0.0304 ± 0.0005 & 0.1011 ± 0.001 & 0.4736 ± 0.0051 & 0.1105 ± 0.0016 \\
+greedy & pure_logits & calibrated NLL & 0.4977 ± 0.0015 & 0.142 ± 0.0034 & 0.029 ± 0.0006 & 0.0984 ± 0.0009 & 0.4703 ± 0.0053 & 0.1089 ± 0.0019 \\
+greedy_init & convex_comb & calibrated NLL & 0.5181 ± 0.0014 & 0.1477 ± 0.0033 & 0.0317 ± 0.0005 & 0.1018 ± 0.0005 & 0.4787 ± 0.0051 & 0.1111 ± 0.0018 \\
+greedy_init & pure_logits & calibrated NLL & 0.4995 ± 0.0015 & 0.1445 ± 0.0033 & 0.0291 ± 0.0006 & 0.0997 ± 0.0008 & 0.4753 ± 0.0055 & 0.1096 ± 0.0018 \\
+greedy_init_temp & convex_comb & calibrated NLL & 0.5025 ± 0.0017 & 0.143 ± 0.0033 & 0.0295 ± 0.0005 & 0.098 ± 0.0008 & 0.4721 ± 0.0053 & 0.1092 ± 0.002 \\
+greedy_init_temp & pure_logits & calibrated NLL & 0.4926 ± 0.0014 & 0.1422 ± 0.0034 & 0.0293 ± 0.0005 & 0.0969 ± 0.0009 & 0.4616 ± 0.0048 & 0.1074 ± 0.0018 \\
+\bottomrule
+\end{tabular}

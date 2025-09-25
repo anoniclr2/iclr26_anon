@@ -1,0 +1,22 @@
+\begin{table}[h]
+  \caption{Full dataset: Area Under the Rejection-Accuracy Curve (AURAC) over data splits; mean ± 95\\% confidence interval half-width) on the full dataset (100\\%). The best mean is shown in bold, and methods not significantly different from the best (paired test, \\( \\alpha = 0.05 \\)) are shaded.}
+  \label{tab:aurac_extended_pure_logits}
+  \centering
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{lcccccc}
+    \toprule
+    Ensemble Type & DBpedia & News & SST-2 & SetFit & Tweet & IMDB \\
+    \midrule
+    Greedy-5 & 0.9895 ± 0.0 & 0.981 ± 0.0011 & 0.984 ± 0.0005 & 0.8915 ± 0.0008 & 0.9103 ± 0.0028 & \cellcolor{gray!20}\textbf{0.9859 ± 0.0002} \\
+    Greedy-5 p.t.c. & 0.9895 ± 0.0 & 0.981 ± 0.0011 & 0.984 ± 0.0005 & 0.8915 ± 0.0008 & 0.9103 ± 0.0027 & \cellcolor{gray!20}0.9859 ± 0.0002 \\
+    Greedy-5 c.t.p. & 0.9896 ± 0.0 & 0.9819 ± 0.0008 & \cellcolor{gray!20}0.9842 ± 0.0005 & 0.9186 ± 0.0007 & 0.9187 ± 0.0011 & \cellcolor{gray!20}0.9859 ± 0.0003 \\
+    Greedy-5 JUCAL & \cellcolor{gray!20}0.9897 ± 0.0 & \cellcolor{gray!20}0.9829 ± 0.0005 & \cellcolor{gray!20}0.9842 ± 0.0005 & \cellcolor{gray!20}\textbf{0.924 ± 0.0006} & 0.9211 ± 0.0006 & \cellcolor{gray!20}0.9858 ± 0.0002 \\
+    \midrule
+    Greedy-50 & 0.9895 ± 0.0 & 0.981 ± 0.0008 & 0.9833 ± 0.0005 & 0.9023 ± 0.0006 & 0.9157 ± 0.0021 & 0.9838 ± 0.0003 \\
+    Greedy-50 p.t.c. & 0.9895 ± 0.0 & 0.981 ± 0.0008 & 0.9833 ± 0.0005 & 0.9023 ± 0.0006 & 0.9158 ± 0.0021 & 0.9838 ± 0.0003 \\
+    Greedy-50 c.t.p. & 0.9896 ± 0.0 & \cellcolor{gray!20}0.9831 ± 0.0006 & \cellcolor{gray!20}\textbf{0.9849 ± 0.0004} & 0.9215 ± 0.0006 & \cellcolor{gray!20}\textbf{0.9246 ± 0.0014} & \cellcolor{gray!20}0.9856 ± 0.0002 \\
+    Greedy-50 JUCAL & \cellcolor{gray!20}\textbf{0.9897 ± 0.0} & \cellcolor{gray!20}\textbf{0.9835 ± 0.0005} & \cellcolor{gray!20}0.9849 ± 0.0005 & \cellcolor{gray!20}0.9237 ± 0.0007 & \cellcolor{gray!20}0.9236 ± 0.0014 & \cellcolor{gray!20}0.9855 ± 0.0002 \\
+    \bottomrule
+  \end{tabular}
+  }
+\end{table}

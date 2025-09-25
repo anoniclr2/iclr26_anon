@@ -1,0 +1,22 @@
+\begin{table}[h]
+  \caption{Full dataset: Area Under the Rejection-Accuracy Curve (AURAC) over data splits; mean ± 95\% confidence interval half-width) on the full dataset (100\%). The best mean is shown in bold, and methods not significantly different from the best (paired test, \( \alpha = 0.05 \)) are shaded.}
+  \label{tab:aurac_ftc_pure_logits}
+  \centering
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{lcccccc}
+    \toprule
+    Ensemble Type & DBpedia & News & SST-2 & SetFit & Tweet & IMDB \\
+    \midrule
+    G5 & 0.9895 ± 0.0 & 0.981 ± 0.0011 & 0.984 ± 0.0005 & 0.8915 ± 0.0008 & 0.9103 ± 0.0028 & \cellcolor{gray!20}\textbf{0.9859 ± 0.0002} \\
+    G5 p.t.c. & 0.9895 ± 0.0 & 0.981 ± 0.0011 & 0.984 ± 0.0005 & 0.8915 ± 0.0008 & 0.9103 ± 0.0027 & \cellcolor{gray!20}0.9859 ± 0.0002 \\
+    G5 JUCAL & \cellcolor{gray!20}0.9897 ± 0.0 & \cellcolor{gray!20}0.9829 ± 0.0005 & 0.9842 ± 0.0005 & 0.924 ± 0.0006 & 0.9211 ± 0.0006 & \cellcolor{gray!20}0.9858 ± 0.0002 \\
+    \midrule
+    G50 & 0.9895 ± 0.0 & 0.981 ± 0.0008 & 0.9833 ± 0.0005 & 0.9023 ± 0.0006 & 0.9157 ± 0.0021 & 0.9838 ± 0.0003 \\
+    G50 p.t.c. & 0.9895 ± 0.0 & 0.981 ± 0.0008 & 0.9833 ± 0.0005 & 0.9023 ± 0.0006 & 0.9158 ± 0.0021 & 0.9838 ± 0.0003 \\
+    G50 JUCAL & \cellcolor{gray!20}\textbf{0.9897 ± 0.0} & \cellcolor{gray!20}0.9835 ± 0.0005 & \cellcolor{gray!20}0.9849 ± 0.0005 & 0.9237 ± 0.0007 & \cellcolor{gray!20}0.9236 ± 0.0014 & \cellcolor{gray!20}0.9855 ± 0.0002 \\
+    G50 r.c.o. JUCAL & \cellcolor{gray!20}0.9897 ± 0.0 & \cellcolor{gray!20}\textbf{0.9837 ± 0.0005} & \cellcolor{gray!20}0.985 ± 0.0004 & \cellcolor{gray!20}\textbf{0.9252 ± 0.0005} & \cellcolor{gray!20}\textbf{0.9249 ± 0.0013} & \cellcolor{gray!20}0.9859 ± 0.0002 \\
+    G50 r.c. JUCAL & \cellcolor{gray!20}0.9897 ± 0.0 & \cellcolor{gray!20}0.9837 ± 0.0005 & \cellcolor{gray!20}\textbf{0.985 ± 0.0005} & 0.9226 ± 0.0005 & \cellcolor{gray!20}0.9244 ± 0.0015 & \cellcolor{gray!20}0.9859 ± 0.0002 \\
+    \bottomrule
+  \end{tabular}
+  }
+\end{table}
