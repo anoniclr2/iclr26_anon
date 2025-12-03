@@ -1,0 +1,3 @@
+[submodule "notebooks/Ensembling_Finetuned_LLMs/finetuning_text_classifiers"]
+	path = notebooks/Ensembling_Finetuned_LLMs/finetuning_text_classifiers
+	url = https://github.com/sebastianpinedaar/finetuning_text_classifiers.git

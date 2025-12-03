@@ -1,0 +1,40 @@
+=== CNN Metrics Computation ===
+Base path: .
+Date: 2025-11-30
+
+Loading experimental data...
+CNN dataset shape: (240, 13)
+Available datasets: ['CIFAR', 'CIFAR100', 'FMNIST', 'MNIST', 'MNIST10Epochs10_5L2Reg', 'MNIST40Epochs10_4L2Reg']
+Available ensemble types: ['greedy_5_baseline', 'greedy_5_post_calib', 'greedy_5_temp_calibrate_then_pool', 'greedy_5_temp_pool_then_calibrate']
+
+=== Computing metrics for 90% coverage ===
+Computing metrics for 240 experiments with target coverage 0.9
+Progress: 1/240 (0.4%)
+Progress: 11/240 (4.6%)
+Progress: 21/240 (8.8%)
+Progress: 31/240 (12.9%)
+Progress: 41/240 (17.1%)
+Progress: 51/240 (21.2%)
+Progress: 61/240 (25.4%)
+Progress: 71/240 (29.6%)
+Progress: 81/240 (33.8%)
+Progress: 91/240 (37.9%)
+Progress: 101/240 (42.1%)
+Progress: 111/240 (46.2%)
+Progress: 121/240 (50.4%)
+Progress: 131/240 (54.6%)
+Progress: 141/240 (58.8%)
+Progress: 151/240 (62.9%)
+Progress: 161/240 (67.1%)
+Progress: 171/240 (71.2%)
+Progress: 181/240 (75.4%)
+Progress: 191/240 (79.6%)
+Progress: 201/240 (83.8%)
+Progress: 211/240 (87.9%)
+Progress: 221/240 (92.1%)
+Progress: 231/240 (96.2%)
+Progress: 240/240 (100.0%)
+Saved results to cnn_experiments_data/metrics/cnn_with_metrics_cov_0p90_2025-11-30.csv
+
+=== Metrics computation completed successfully! ===
+Results saved to cnn_experiments_data/metrics

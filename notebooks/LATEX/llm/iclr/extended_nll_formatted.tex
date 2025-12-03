@@ -1,0 +1,22 @@
+\begin{table}[h]
+  \caption{Full dataset: Negative log-likelihood (\\( \\text{NLL}_{\\text{mean}} \\)) over data splits; mean ± 95\\% confidence interval half-width) on the full dataset (100\\%). The best mean is shown in bold, and methods not significantly different from the best (paired test, \\( \\alpha = 0.05 \\)) are shaded.}
+  \label{tab:nll_extended_pure_logits}
+  \centering
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{lcccccc}
+    \toprule
+    Ensemble Type & DBpedia & News & SST-2 & SetFit & Tweet & IMDB \\
+    \midrule
+    Greedy-5 & 0.0376 ± 0.0005 & 0.1682 ± 0.0048 & 0.1359 ± 0.0051 & 0.5465 ± 0.0033 & 0.5095 ± 0.0089 & 0.1171 ± 0.0028 \\
+    Greedy-5 p.t.c. & 0.0348 ± 0.0007 & 0.1618 ± 0.0052 & 0.1208 ± 0.004 & 0.5431 ± 0.0019 & 0.5012 ± 0.0052 & 0.1018 ± 0.0022 \\
+    Greedy-5 c.t.p. & 0.0324 ± 0.0006 & 0.1613 ± 0.0043 & 0.1235 ± 0.0035 & 0.54 ± 0.001 & 0.5239 ± 0.0152 & 0.104 ± 0.0021 \\
+    Greedy-5 JUCAL & \cellcolor{gray!20}0.029 ± 0.0004 & 0.1479 ± 0.0023 & \cellcolor{gray!20}0.1143 ± 0.0032 & \cellcolor{gray!20}\textbf{0.4965 ± 0.0013} & 0.4772 ± 0.0028 & \cellcolor{gray!20}0.1005 ± 0.0018 \\
+    \midrule
+    Greedy-50 & 0.0349 ± 0.0005 & 0.1541 ± 0.0043 & \cellcolor{gray!20}0.1137 ± 0.0039 & 0.531 ± 0.0016 & 0.4763 ± 0.0052 & 0.105 ± 0.0026 \\
+    Greedy-50 p.t.c. & 0.0331 ± 0.0003 & 0.151 ± 0.0037 & \cellcolor{gray!20}0.113 ± 0.0035 & 0.5309 ± 0.0016 & \cellcolor{gray!20}0.4758 ± 0.0049 & 0.1042 ± 0.0019 \\
+    Greedy-50 c.t.p. & 0.0308 ± 0.0003 & 0.1512 ± 0.002 & 0.122 ± 0.001 & 0.5439 ± 0.0016 & 0.5112 ± 0.0027 & 0.109 ± 0.0014 \\
+    Greedy-50 JUCAL & \cellcolor{gray!20}\textbf{0.0288 ± 0.0004} & \cellcolor{gray!20}\textbf{0.1423 ± 0.0024} & \cellcolor{gray!20}\textbf{0.109 ± 0.0032} & \cellcolor{gray!20}0.4972 ± 0.0018 & \cellcolor{gray!20}\textbf{0.468 ± 0.0045} & \cellcolor{gray!20}\textbf{0.0983 ± 0.0017} \\
+    \bottomrule
+  \end{tabular}
+  }
+\end{table}

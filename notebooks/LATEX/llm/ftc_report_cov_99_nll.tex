@@ -1,0 +1,15 @@
+\begin{tabular}{llllllll}
+\toprule
+ensemble_type & method & \multicolumn{6}{r}{NLL} \\
+ &  & DBpedia & News & SST-2 & SetFit & Tweet & IMDB \\
+\midrule
+greedy_unique_5_baseline & pure_logits & 0.0376 ± 0.0005 & 0.1682 ± 0.0048 & 0.1359 ± 0.0051 & 0.5465 ± 0.0033 & 0.5095 ± 0.0089 & 0.1171 ± 0.0028 \\
+greedy_unique_5_temp_baseline & pure_logits & 0.0348 ± 0.0007 & 0.1618 ± 0.0052 & 0.1208 ± 0.004 & 0.5431 ± 0.0019 & 0.5012 ± 0.0052 & 0.1018 ± 0.0022 \\
+greedy_unique_5_post_calib & pure_logits & 0.029 ± 0.0004 & 0.1479 ± 0.0023 & 0.1143 ± 0.0032 & 0.4965 ± 0.0013 & 0.4772 ± 0.0028 & 0.1005 ± 0.0018 \\
+greedy_50_baseline & pure_logits & 0.0349 ± 0.0005 & 0.1541 ± 0.0043 & 0.1137 ± 0.0039 & 0.531 ± 0.0016 & 0.4763 ± 0.0052 & 0.105 ± 0.0026 \\
+greedy_50_temp_baseline & pure_logits & 0.0331 ± 0.0003 & 0.151 ± 0.0037 & 0.113 ± 0.0035 & 0.5309 ± 0.0016 & 0.4758 ± 0.0049 & 0.1042 ± 0.0019 \\
+greedy_50_post_calib & pure_logits & 0.0288 ± 0.0004 & 0.1423 ± 0.0024 & 0.109 ± 0.0032 & 0.4972 ± 0.0018 & 0.468 ± 0.0045 & 0.0983 ± 0.0017 \\
+greedy_50_calib_once & pure_logits & 0.0291 ± 0.0004 & 0.1425 ± 0.0032 & 0.1087 ± 0.0031 & 0.4909 ± 0.0012 & 0.4594 ± 0.0051 & 0.0974 ± 0.0017 \\
+greedy_50_calib_every_step & pure_logits & 0.029 ± 0.0005 & 0.1433 ± 0.0029 & 0.1075 ± 0.0035 & 0.4938 ± 0.0014 & 0.4594 ± 0.0051 & 0.097 ± 0.0013 \\
+\bottomrule
+\end{tabular}
